@@ -115,7 +115,7 @@ class KineticCurve(SensitivityPlot):
 
         if multi_ld:
             cols = 2
-            rows = np.ceil(len(lds) / cols)
+            rows = int(np.ceil(len(lds) / cols))
         else:
             cols, rows = 1, 1
         idx = 1
