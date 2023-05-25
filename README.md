@@ -4,7 +4,7 @@ Python tool for optimizing multi-PLD pCASL acquisitions
 
 For documentation see:
 
-https://oxasl_optpcasl.readthedocs.io/
+https://oxasl-optpcasl.readthedocs.io/
 
 ## References
 
