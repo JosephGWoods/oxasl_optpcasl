@@ -1,6 +1,7 @@
 """
 OXASL_OPTPCASL: Widget that displays the sensitivity of the protocol to CBF and ATT
-Copyright (c) 2019 University of Oxford
+
+Copyright (c) 2019 University of Nottingham
 """
 import numpy as np
 

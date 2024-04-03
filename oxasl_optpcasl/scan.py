@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL - ASL Scan protocols
 
-Copyright 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import numpy as np
 import scipy.linalg
@@ -168,7 +168,7 @@ class PcaslProtocol(Protocol):
         Protocol.__init__(self, *args, **kwargs)
 
         # Slice time offset [NSlices]
-        self.slicedt = np.arange(self.scan_params.nslices, dtype=np.float) * self.scan_params.slicedt
+        self.slicedt = np.arange(self.scan_params.nslices, dtype=np.float32) * self.scan_params.slicedt
 
         # We can only calculate the cost function for ATT > shortest PLD, otherwise we don't
         # see the inflow and the determinant blows up. So we modify the ATT distribution
@@ -395,7 +395,7 @@ class MultiPLDPcaslVarLD(PcaslProtocol):
 
     def timings(self, params):
         plds = params[..., :-1]
-        lds = np.zeros(plds.shape, dtype=np.float)
+        lds = np.zeros(plds.shape, dtype=np.float32)
         lds[:] = params[..., -1][..., np.newaxis]
         return lds, plds
 

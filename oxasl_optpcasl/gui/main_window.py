@@ -2,7 +2,7 @@
 """
 OXASL_OPTPCASL: Main GUI window
 
-Copyright (c) 2020 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 
 import os

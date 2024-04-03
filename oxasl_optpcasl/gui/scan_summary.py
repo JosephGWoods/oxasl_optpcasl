@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL: Widget that displays summary of the scan protocol
 
-Copyright (c) 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import sys
 import numpy as np

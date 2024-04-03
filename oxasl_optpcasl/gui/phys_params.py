@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL: Widget to control physiological parameters
 
-Copyright (c) 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 from ..structures import PhysParams
 from .widgets import TabPage

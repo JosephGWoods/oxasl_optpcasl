@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL - Functions for optimizing the PLDs of a multi-pld pCASL protocol
 
-Copyright 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import sys
 import itertools

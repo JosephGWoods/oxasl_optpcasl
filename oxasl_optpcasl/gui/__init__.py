@@ -6,5 +6,5 @@ Requirements (beyond OXASL requirements):
     - wxpython
     - matplotlib
 
-Copyright (c) 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """

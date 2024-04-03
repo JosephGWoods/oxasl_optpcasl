@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL - Code to run optimization, and display output
 
-Copyright (C) 2020 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 
 from threading import Thread

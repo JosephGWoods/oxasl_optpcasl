@@ -76,8 +76,8 @@ class BuxtonPcasl(KineticModel):
             # differently. This array is designed to define TIs which are 'effectively'
             # equal so the rounding differences do not matter so much
             times_equal = np.isclose(times, ld + att)
-            weight_during = np.logical_and(times > att, np.logical_or(times < (ld + att), times_equal)).astype(np.int)
-            weight_after = np.logical_and(times > ld + att, np.logical_not(times_equal)).astype(np.int)
+            weight_during = np.logical_and(times > att, np.logical_or(times < (ld + att), times_equal)).astype(np.int32)
+            weight_after = np.logical_and(times > ld + att, np.logical_not(times_equal)).astype(np.int32)
         else:
             # The alternative is to smoothly blend the before/after bolus arrival solutions
             # using an error function with a short time scale (0.01s in this case)

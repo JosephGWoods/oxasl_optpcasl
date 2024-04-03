@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL - Basic data structures used
 
-Copyright 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import numpy as np
 

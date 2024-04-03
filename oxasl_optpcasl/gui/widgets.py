@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL: Useful wx widgets for building the GUI
 
-Copyright (c) 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import os
 

@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL - Cost functions for optimizing ASL protocols
 
-Copyright 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import numpy as np
 

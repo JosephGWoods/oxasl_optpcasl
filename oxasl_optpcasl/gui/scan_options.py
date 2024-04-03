@@ -1,7 +1,7 @@
 """
 OXASL_OPTPCASL: Widget to control the parameters of the PCASL scan to optimize
 
-Copyright (c) 2019 University of Oxford
+Copyright (c) 2019 University of Nottingham
 """
 import os
 
