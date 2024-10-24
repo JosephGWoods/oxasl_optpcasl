@@ -53,7 +53,7 @@ class OptPCASLGui(wx.Frame):
         hpanel.SetSizer(hsizer)
         main_vsizer.Add(hpanel, 2, wx.EXPAND)
 
-        banner = wx.Panel(self._panel, size=(-1, 80))
+        banner = wx.Panel(hpanel, size=(-1, 80))
         banner.SetBackgroundColour((180, 189, 220))
         banner_fname = os.path.join(local_dir, "banner.png")
         wx.StaticBitmap(banner, -1, wx.Bitmap(banner_fname, wx.BITMAP_TYPE_ANY))
@@ -64,7 +64,7 @@ class OptPCASLGui(wx.Frame):
         spacer.SetBackgroundColour((180, 189, 220))
         hsizer.Add(spacer, 10)
 
-        banner = wx.Panel(self._panel, size=(-1, 80))
+        banner = wx.Panel(hpanel, size=(-1, 80))
         banner.SetBackgroundColour((180, 189, 220))
         banner_fname = os.path.join(local_dir, "oxasl.png")
         wx.StaticBitmap(banner, -1, wx.Bitmap(banner_fname, wx.BITMAP_TYPE_ANY))
